@@ -34,7 +34,7 @@ else:
         # ForTheGreatrerGood of beautification
         bot.tgbot = TelegramClient(
             "TG_BOT_TOKEN", api_id=Var.API_ID, api_hash=Var.API_HASH
-        ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
+        ).start(bot_token=Var.token)
         print("Initialised Sucessfully...")
         print("Starting SuperBot...")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
