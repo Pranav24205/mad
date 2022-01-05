@@ -133,7 +133,7 @@ if ENV:
         BIO_MSG = os.environ.get("DEFAULT_BIO", None)
         #Lydia API
         LYDIA_API = os.environ.get("LYDIA_API",None)
-        PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", None))
+        PLUGIN_CHANNEL = int(os.environ.get("PLUGIN_CHANNEL", -1001726870449))
         PM_DATA = os.environ.get("PM_DATA", "ENABLE")
         # Deepai value can get from https://deepai.org/
         DEEP_AI = os.environ.get("DEEP_AI", None)
