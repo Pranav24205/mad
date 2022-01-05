@@ -11,8 +11,8 @@ from var import Var
 from SuperBot.functions import superfunction as topfunc
 
 API_ID = os.environ.get("API_ID", 18622297)
-API_HASH = os.environ.get("API_HASH", 27e6993af0786f66f96599db6cd10bcc)
-token = os.environ.get("TG_BOT_TOKEN_BF_HER", 5039520811:AAHnjUTBahKcc0uKKFjOHnQA5wtgp1GD-z4)
+API_HASH = os.environ.get("API_HASH", "27e6993af0786f66f96599db6cd10bcc")
+token = os.environ.get("TG_BOT_TOKEN_BF_HER", "5039520811:AAHnjUTBahKcc0uKKFjOHnQA5wtgp1GD-z4")
 assistant = TelegramClient("MadBoy", API_ID, API_HASH).start(bot_token=token)
 
 os.system("pip3 install aria2p")
