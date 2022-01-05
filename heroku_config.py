@@ -29,7 +29,7 @@ class Var(object):
     HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
     #dont Kang this 
     botnickname = os.environ.get("BOT_NICK_NAME", None)
-    TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", 5039520811:AAHnjUTBahKcc0uKKFjOHnQA5wtgp1GD-z4)
+    TG_BOT_TOKEN_BF_HER = os.environ.get("TG_BOT_TOKEN_BF_HER", "5039520811:AAHnjUTBahKcc0uKKFjOHnQA5wtgp1GD-z4")
     TG_BOT_USER_NAME_BF_HER = os.environ.get("TG_BOT_USER_NAME_BF_HER", @SuperBotestvps_bot)
     DOWNLOAD_PFP_URL_CLOCK = os.environ.get("DOWNLOAD_PFP_URL_CLOCK", None)
     PM_PERMIT_GROUP_ID = os.environ.get("PM_PERMIT_GROUP_ID", None)
